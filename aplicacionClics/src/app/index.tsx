@@ -22,7 +22,10 @@ export default function App() {
     setRegistros([nuevoRegistro, ...registros]);
   };
 
-
+  const reiniciarContador = () => {
+    setLikes(0);
+    setRegistros([]);
+  };
 
   return (
     <View style={estilos.body}>
