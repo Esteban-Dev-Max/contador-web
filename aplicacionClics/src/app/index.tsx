@@ -118,14 +118,7 @@ const estilos = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 10,
   },
-  btnReset: {
-    backgroundColor: '#e74c3c',
-    padding: 10,
-    borderRadius: 8,
-    width: '100%',
-    alignItems: 'center',
-    marginBottom: 15,
-  },
+
   btnText: {
     color: '#ffffff',
     fontWeight: 'bold',
@@ -170,3 +163,8 @@ const estilos = StyleSheet.create({
   },
   cellNumero: {
     flex: 1,
+  },
+  cellHora: {
+    flex: 1.5,
+  },
+});
