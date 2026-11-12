@@ -22,10 +22,7 @@ export default function App() {
     setRegistros([nuevoRegistro, ...registros]);
   };
 
-  const reiniciarContador = () => {
-    setLikes(0);
-    setRegistros([]);
-  };
+
 
   return (
     <View style={estilos.body}>
@@ -71,7 +68,14 @@ export default function App() {
   );
 }
 
-
+const estilos = StyleSheet.create({
+  body: {
+    flex: 1,
+    backgroundColor: '#f4f7f6',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
   card: {
     backgroundColor: '#ffffff',
     padding: 20,
