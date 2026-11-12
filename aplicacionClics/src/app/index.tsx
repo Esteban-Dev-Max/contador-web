@@ -71,14 +71,7 @@ export default function App() {
   );
 }
 
-const estilos = StyleSheet.create({
-  body: {
-    flex: 1,
-    backgroundColor: '#f4f7f6',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
-  },
+
   card: {
     backgroundColor: '#ffffff',
     padding: 20,
@@ -118,7 +111,14 @@ const estilos = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 10,
   },
-
+  btnReset: {
+    backgroundColor: '#e74c3c',
+    padding: 10,
+    borderRadius: 8,
+    width: '100%',
+    alignItems: 'center',
+    marginBottom: 15,
+  },
   btnText: {
     color: '#ffffff',
     fontWeight: 'bold',
