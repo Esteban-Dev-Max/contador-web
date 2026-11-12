@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactividad con el DOM - Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Interactividad con el DOM</h2>
+        <p class="subtitle">Haz clic en el botón para incrementar el contador y registrar la hora exacta del evento en la tabla.</p>
+        
+        <!-- Contador numérico -->
+        <div id="contador" class="counter-display">0</div>
+
+        <!-- Botones (Incluye el Reto 1: Reiniciar / Restar) -->
+        <button id="btn-like" class="btn-primary">¡Haz Clic Aquí!</button>
+        <button id="btn-reset" class="btn-secondary">Reiniciar a Cero</button>
+
+        <!-- Tabla de registros -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nº Clic</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-cuerpo">
+                    <!-- Las filas se insertarán dinámicamente con JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
