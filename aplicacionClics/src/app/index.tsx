@@ -162,3 +162,10 @@ const estilos = StyleSheet.create({
     padding: 8,
     textAlign: 'center',
   },
+  td: {
+    color: '#333',
+    fontSize: 13,
+    padding: 8,
+    textAlign: 'center',
+  },
+  
